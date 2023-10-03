@@ -7,7 +7,7 @@ const Navbar = () => {
         <NavLink to="/">Home</NavLink>
       </li>
       <li>
-        <NavLink to="/login">Login</NavLink>
+        <NavLink to="/signin">Signin </NavLink>
       </li>
       <li>
         <NavLink to="/register">Register</NavLink>
@@ -41,7 +41,7 @@ const Navbar = () => {
             {navLinks}
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">Auth-Moha-Milon</a>
+        <a className="btn btn-ghost normal-case text-xl">Moha Milon</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>

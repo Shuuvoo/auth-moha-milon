@@ -12,6 +12,7 @@ import Home from './components/Home.jsx';
 // import Login from './components/Login.jsx';
 import Register from './components/Register.jsx';
 import Login from './components/Login';
+import Signin from './components/Signin';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,11 @@ const router = createBrowserRouter([
       {
         path:"/register",
         element:<Register></Register>
+      },
+      {
+        path:"/signin",
+        element:<Signin></Signin>
+
       }
     ]
   },
